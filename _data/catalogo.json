@@ -222,7 +222,7 @@
       "prezzo_centesimi": 20000,
       "descrizione": "Drone con camera, senza pallini: vede il campo e segna le posizioni.",
       "descrizione_completa": "Drone con camera, senza pallini: vede il campo e segna le posizioni.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/ricognitore-r1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -260,7 +260,7 @@
       "prezzo_centesimi": 42000,
       "descrizione": "Bobina piu' lunga e camera HD per campi grandi.",
       "descrizione_completa": "Bobina piu' lunga e camera HD per campi grandi.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/fibra-f2-pro.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -279,7 +279,7 @@
       "prezzo_centesimi": 27000,
       "descrizione": "Kit da 4 mini-drone con gabbia e piccoli lanciatori per azioni coordinate.",
       "descrizione_completa": "Kit da 4 mini-drone con gabbia e piccoli lanciatori per azioni coordinate.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/sciame-s4.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -298,7 +298,7 @@
       "prezzo_centesimi": 17000,
       "descrizione": "Drone con gancio: lascia cadere una granata che sparge pallini gialli. 6 capsule incluse.",
       "descrizione_completa": "Drone con gancio: lascia cadere una granata che sparge pallini gialli. 6 capsule incluse.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/granata-g1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -317,7 +317,7 @@
       "prezzo_centesimi": 19000,
       "descrizione": "Capsula che libera pallini colorati: segnano i colpiti per il punteggio.",
       "descrizione_completa": "Capsula che libera pallini colorati: segnano i colpiti per il punteggio.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/bomba-color-b1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -336,7 +336,7 @@
       "prezzo_centesimi": 2000,
       "descrizione": "Ricarica per G1 e B1, gialle o colorate.",
       "descrizione_completa": "Ricarica per G1 e B1, gialle o colorate.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/capsule-x10.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -355,7 +355,7 @@
       "prezzo_centesimi": 3500,
       "descrizione": "Mini aliante in schiuma con capsula gialla: si sgancia a quota e plana in avanti.",
       "descrizione_completa": "Mini aliante in schiuma con capsula gialla: si sgancia a quota e plana in avanti.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/aliante-a1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -393,7 +393,7 @@
       "prezzo_centesimi": 17000,
       "descrizione": "Sei alianti per un'intera partita.",
       "descrizione_completa": "Sei alianti per un'intera partita.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/pack-6-alianti.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -431,7 +431,7 @@
       "prezzo_centesimi": 40000,
       "descrizione": "Aereo a getto elettrico con ventola intubata: velocissimo, per intercettare i bersagli veloci.",
       "descrizione_completa": "Aereo a getto elettrico con ventola intubata: velocissimo, per intercettare i bersagli veloci.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/jet-j1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -526,7 +526,7 @@
       "prezzo_centesimi": 67500,
       "descrizione": "Ala fissa elettrica ad alta autonomia con camera FPV e rilascio a lunga distanza.",
       "descrizione_completa": "Ala fissa elettrica ad alta autonomia con camera FPV e rilascio a lunga distanza.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/cruiser-l1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -564,7 +564,7 @@
       "prezzo_centesimi": 25000,
       "descrizione": "Drone ripetitore: sale in quota e fa da ponte LoRa per gli altri droni.",
       "descrizione_completa": "Drone ripetitore: sale in quota e fa da ponte LoRa per gli altri droni.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/relay-r2.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -602,7 +602,7 @@
       "prezzo_centesimi": 32500,
       "descrizione": "Veloce e agile: raffica corta di pallini sul drone bersaglio.",
       "descrizione_completa": "Veloce e agile: raffica corta di pallini sul drone bersaglio.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/interceptor-i1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -621,7 +621,7 @@
       "prezzo_centesimi": 12500,
       "descrizione": "Ala fissa in schiuma, economica e resistente, da intercettare.",
       "descrizione_completa": "Ala fissa in schiuma, economica e resistente, da intercettare.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/bersaglio-t1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -640,7 +640,7 @@
       "prezzo_centesimi": 25000,
       "descrizione": "Torretta a terra con sensore di movimento: spara ai droni nella zona difesa.",
       "descrizione_completa": "Torretta a terra con sensore di movimento: spara ai droni nella zona difesa.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/sentinella.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -735,7 +735,7 @@
       "prezzo_centesimi": 47500,
       "descrizione": "4 droni economici con schede ESP32/LoRa gia' programmate e nodo arbitro.",
       "descrizione_completa": "4 droni economici con schede ESP32/LoRa gia' programmate e nodo arbitro.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/sciame-kit-s-lora.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -792,7 +792,7 @@
       "prezzo_centesimi": 29000,
       "descrizione": "Scafo EPP piegabile, 4 motori + spingente, transizione e quota automatiche.",
       "descrizione_completa": "Scafo EPP piegabile, 4 motori + spingente, transizione e quota automatiche.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/vtol-v1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -811,7 +811,7 @@
       "prezzo_centesimi": 51500,
       "descrizione": "Come V1 con camera FPV e lanciatore frontale leggero.",
       "descrizione_completa": "Come V1 con camera FPV e lanciatore frontale leggero.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/vtol-v2-fpv.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -830,7 +830,7 @@
       "prezzo_centesimi": 62500,
       "descrizione": "Rilascia 4-6 alianti A1 o capsule granata dal ventre.",
       "descrizione_completa": "Rilascia 4-6 alianti A1 o capsule granata dal ventre.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/vtol-v3-bombardiere.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -849,7 +849,7 @@
       "prezzo_centesimi": 90000,
       "descrizione": "Ala grande e batteria pesante, ripiegabile in valigia: campi da 1-2 km.",
       "descrizione_completa": "Ala grande e batteria pesante, ripiegabile in valigia: campi da 1-2 km.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/vtol-v4-cruiser.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
