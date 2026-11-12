@@ -68,3 +68,127 @@ Fonti: Ukrainska Pravda, CEPA, SlashGear, RBC-Ukraine, MoD Ucraina (vedi ricerca
 4. **Pallini colorati**: tipo di colorante, sicurezza, possibile macchia su vestiti e ambiente.
 5. **Fornitori**: cercare con le parole "FPV drone launcher gel ball / airsoft drone / drop mechanism / interceptor FPV toy"; chiedere campioni prima di mettere i prezzi.
 6. **Immagini e testi**: niente loghi di forze armate o di produttori reali, niente nomi di armi reali nei prodotti.
+
+
+---
+
+# AGGIORNAMENTO 12/11/2026 - categorie separate e nuove idee
+
+Struttura nuova: ogni categoria e' separata, cosi' il sito puo' avere un menu per uso. Le linee del listino sopra restano come primi prodotti; qui sotto le riorganizziamo e aggiungiamo.
+
+## Categorie (menu del sito)
+
+| Categoria | Cosa e' nel gioco | Prodotti gia' in listino |
+|---|---|---|
+| **Ricognizione** | Vede il campo, segna le posizioni, niente pallini | Ricognitore R1 |
+| **Attacco** | FPV che colpisce il bersaglio | Fibra F1, Fibra F2 Pro, Sciame S4 |
+| **Bombardiere** | Rilascia granate e bombe di pallini | Granata G1, Bomba Color B1, capsule |
+| **Lungo raggio** | Droni che coprono tutto il campo o piu' campi | (da aggiungere, vedi sotto) |
+| **Difesa** | Intercetta e abbatte i droni nemici | Interceptor I1, Sentinella, Bersaglio T1, reti |
+| **Sciami** | Gruppi coordinati di droni economici | Sciame S4 (da sviluppare, vedi sotto) |
+| **Accessori** | Pallini, protezioni, gilet, batterie | vedi listino |
+
+## Bombe plananti (idea affascinante)
+
+Ispirate alle bombe plananti: un piccolo aliante con ali che viene sganciato da un drone e plana verso il bersaglio, senza motore proprio.
+
+| Prodotto | Idea | Gioco | Target |
+|---|---|---|---|
+| **Skyfire Aliante A1** | Mini aliante in schiuma con capsula di pallini gialli, si sgancia dal drone a quota e plana in avanti. | Colpisce da lontano senza avvicinarsi: ottimo per i giochi di assalto. | 25-50 EUR (aliante) |
+| **Skyfire Aliante A2 Color** | Come A1 con capsula di pallini colorati, apertura a contatto. | Segna l'area colpita per il punteggio. | 30-60 EUR |
+| **Pack 6 alianti** | Confezione da 6 alianti per un'intera partita. | Costo basso per colpo, margine buono. | 120-220 EUR |
+| **Gancio sgancio doppio** | Gancio per drone che porta 2 alianti. | Due lanci per volo. | 35-70 EUR |
+
+Note: sono pezzi di schiuma/EPP, economici da produrre. Da cercare sui fornitori: "EPP glider drop", "drone airdrop release", "foam glider toy". Da verificare le regole sul rilascio di oggetti da drone.
+
+## Velocita': a benzina e a getto (tendenza reale 2026)
+
+Cosa sta succedendo nella guerra in Ucraina, da cui prendiamo ispirazione: i droni da attacco ad elica a motore a scoppio (stile Shahed) venivano intercettati sempre meglio, e nel 2026 sono comparse versioni **a getto (turbogetto)**, circa 2-3 volte piu' veloci. Risposta: **intercettori a getto**, cioe' droni veloci a turbina (Alexa Spatium, in servizio da agosto 2026) o intercettori ad elica ma piu' veloci (SkyFall P1-SUN Jetkiller, circa 370 km/h). Collo di bottiglia reale: i motorini a getto miniaturizzati sono pochi e costosi, quindi si lavora anche su versioni elettriche piu' veloci.
+
+Per noi (simulazione softair, budget "infinito"): tre livelli di velocita'.
+
+| Livello | Motore | Cosa e' | Per chi |
+|---|---|---|---|
+| **Standard** | Elettrico ad elica | I droni gia' in listino | Tutti |
+| **Veloce** | **EDF (ventola intubata elettrica)**: sembra un jet, e' elettrico | Aerei "jet" in schiuma/composito con ventola; silenziosi, sicuri, facili da trovare | Giocatori esperti |
+| **Extreme** | **Micro-turbina a kerosene** (hobby RC) o **motore a scoppio a benzina** | Modelli da aeromodellismo evoluto, costosi e rumorosi | Solo esperti, edizione limitata |
+
+### Prodotti (bozza)
+
+| Prodotto | Ispirato a | Idea | Target |
+|---|---|---|---|
+| **Skyfire Jet J1 (EDF)** | Intercettori a getto | Aereo a getto elettrico con ventola, velocissimo: per intercettare i bersagli veloci di gioco. Lanciatore pallini frontale in versione leggera. | 280-520 EUR |
+| **Skyfire Jet J1 Target** | Droni da attacco a getto | Bersaglio jet in schiuma per allenare l'intercettazione ad alta velocita'. | 120-240 EUR |
+| **Skyfire Turbo T1 (micro-turbina)** | Intercettori a turbina | Modello con micro-turbina a kerosene da aeromodellismo, versione da esposizione/gara. Serve esperienza e un campo adatto. | 3.500-6.500 EUR (da verificare) |
+| **Skyfire Piston P1 (benzina)** | Droni a motore a scoppio | Ala fissa a benzina per lungo raggio e autonomia: copre piu' campi di gioco. | 900-2.200 EUR |
+| **Skyfire Catapulta** | Lancio da rampa | Rampa di lancio per ali fisse veloci. | 90-250 EUR |
+
+Cose da sapere:
+- Le micro-turbine esistono nell'aeromodellismo ma sono costose, rumorose e richiedono carburante, manutenzione e un club/campo di volo. Per un gioco di squadra la versione **EDF** e' molto piu' realistica da vendere.
+- Gioco e velocita': a 300+ km/h il drone con pallini non e' piu' un gioco da campo piccolo. Servono aree grandi e sicure.
+- Da verificare: regole ENAC per aeromodelli (peso, velocita', quota), assicurazione, rumore, carburante e stoccaggio, licenze per l'uso in campo.
+- Da cercare sui fornitori: "EDF jet RC 64mm / 70mm / 90mm", "micro turbine jet engine RC", "gas engine fixed wing RC drone", "catapult launcher RC glider".
+
+## Lungo raggio
+
+Per giocare su campi enormi (bosco, cave, scenari di 1-2 km) o in "campagne" di piu' ore.
+
+| Prodotto | Idea | Target |
+|---|---|---|
+| **Skyfire Cruiser L1** | Ala fissa elettrica ad alta autonomia, camera FPV, rilascio di alianti/capsule a lunga distanza. | 450-900 EUR |
+| **Skyfire Cruiser L2 Piston** | Come L1 ma a benzina: piu' autonomia (vedi Piston P1). | 900-2.200 EUR |
+| **Skyfire Relay R2** | Drone "ripetitore": sale in quota e fa da ponte radio per gli altri droni (collegamento LoRa, vedi sezione sciami). | 150-350 EUR |
+| **Skyfire Fibra Long F3** | FPV a fibra con bobina molto lunga: nessuna interferenza anche a distanza. | 450-750 EUR |
+
+Nota di realismo: nei reportage il lungo raggio e' passato da pochi km a decine di km per i droni a fibra e per quelli di rete. Nel gioco basta una frazione, cosi' si resta sempre in vista dell'arbitro.
+
+## Guida autonoma e intelligenza artificiale (versione gioco)
+
+Cosa fanno i produttori reali: moduli che prendono il controllo solo nell'ultimo tratto ("last mile"). Un umano sceglie il bersaglio sullo schermo, poi un computer di bordo con visione artificiale tiene il bersaglio al centro e finisce il volo da solo, anche se la radio cade. Moduli di questo tipo sono arrivati a costare intorno ai 100 dollari, ed e' lo stesso schema usato dagli intercettori. Ci sono 5 livelli di autonomia, dal "pilota sceglie tutto" al "drone fa tutta la missione".
+
+Per noi, in gioco, in modo semplice e sicuro:
+
+| Prodotto | Idea | Target |
+|---|---|---|
+| **Modulo Lock-On L1** | Camera e piccolo computer: il pilota seleziona sullo schermo un giocatore (con gilet marcato) e il drone lo segue; il rilascio dei pallini e' sempre deciso dal pilota. | 90-200 EUR |
+| **Modulo Intercept AI** | Su Interceptor/Jet: tiene il drone bersaglio nel mirino e corregge la rotta. | 150-300 EUR |
+| **Gilet con marcatore** | Marcatori colorati o IR sul gilet, facilitano il riconoscimento da parte della camera. | 40-90 EUR |
+| **Modalita' addestramento** | Il drone vola da solo su un percorso, per imparare. | incluso |
+
+Regola di gioco consigliata (e di prodotto): **il pilota decide sempre il colpo**. Niente modalita' completamente autonome contro persone: anche in softair e' piu' sicuro, e resta fedele al dibattito etico reale (autonomia solo nella parte terminale).
+
+Da verificare: privacy (riconoscimento di persone con camera), sicurezza, regole su droni con guida assistita.
+
+## Sciami coordinati con ESP32 + LoRa (idea economica)
+
+Logica: per pochi euro si costruisce uno sciame "strategico". Ogni drone ha una scheda **ESP32** (pochi euro) e un modulo **LoRa** (pochi euro): comunicano a bassa velocita' ma a lunga distanza, senza internet e senza Wi-Fi. Non servono per pilotare il volo (quello resta al controller di volo), ma per **coordinare il gioco**: ruoli, stato e punteggio.
+
+### Cosa si scambiano gli sciami
+
+- **Posizione e stato**: ogni drone dice "sono qui, batteria al 40%, 12 pallini".
+- **Ruoli**: capo sciame, ricognitore, attaccante, bombardiere. Il capo assegna gli obiettivi.
+- **Colpiti/abbattuti**: se un drone e' "colpito" (sensore), tutto lo sciame lo sa e cambia tattica.
+- **Zona di gioco (geofence)**: se un drone esce dall'area, riceve il comando di rientro.
+- **Arbitro**: un nodo a terra manda "inizio/stop/pausa/atterraggio di emergenza" a tutto lo sciame.
+
+### Prodotti (bozza)
+
+| Prodotto | Idea | Target |
+|---|---|---|
+| **Skyfire Sciame Kit S-LoRa** | Kit con 4 droni economici + 4 schede ESP32/LoRa gia' programmate + nodo arbitro. | 350-600 EUR |
+| **Scheda Swarm Node (ESP32+LoRa)** | Scheda da montare su qualsiasi drone: ruolo, stato, geofence. | 25-45 EUR |
+| **Nodo Arbitro** | Scatola a terra con pulsante di stop generale e schermata dello sciame. | 60-120 EUR |
+| **Software Comandante** | App (telefono/PC) con mappa dello sciame, ordini e punteggio. Lo facciamo noi, siamo sviluppatori. | abbonamento o incluso |
+| **Relay R2** | Drone ripetitore per tenere il collegamento su campi grandi. | vedi lungo raggio |
+
+### Perche' e' un buon prodotto per noi
+
+- Costo hardware bassissimo, valore alto nel **software** (che sappiamo scrivere).
+- Differenzia il sito: non vendiamo solo droni, vendiamo **una strategia di gioco**.
+- Si puo' fare open: guide e firmware, e vendere i kit pronti.
+
+### Da verificare
+
+- **LoRa in Europa**: banda 868 MHz con limiti di potenza e di tempo di trasmissione (duty cycle). Controllare le regole.
+- **Sicurezza**: stop di emergenza obbligatorio, failsafe, atterraggio automatico se il collegamento cade.
+- **Non pilotare con LoRa**: la banda e' troppo lenta per il controllo manuale; usarla solo per coordinamento.
