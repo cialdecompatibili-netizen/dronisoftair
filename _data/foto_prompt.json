@@ -1,0 +1,10 @@
+{
+ "template": "Fotografia di prodotto professionale e-commerce: {nome}, {aspetto}. Sfondo neutro chiaro sfumato, luce morbida da studio, alta definizione, nessun testo, nessuna scritta, nessun logo, nessuna persona",
+ "default": "",
+ "aspetti": {
+  "pallini-gialli": "a transparent pouch of bright yellow 6 mm plastic airsoft BBs with a few pellets spilled beside it, no text, no logos",
+  "pallini-colorati": "a transparent pouch of bright red, blue and green 6 mm marking airsoft BBs with a few pellets spilled beside it, no text, no logos",
+  "tuta-bianca": "a plain white full-body coverall suit on a mannequin, front view, with a few small colored paint-like marks, no logos, no text",
+  "fibra-f1": "a small black FPV quadcopter drone with protective frame and a thin fiber-optic cable spool attached, olive green accents, no logos, no text"
+ }
+}
