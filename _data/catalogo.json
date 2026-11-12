@@ -2,33 +2,1108 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Ricognizione",
+      "id": "ricognizione",
+      "icona": "🔭",
+      "descrizione": "Vede il campo e segna le posizioni, senza pallini.",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Recon",
+          "descrizione": "Sees the field and marks positions, no BBs."
+        }
+      }
+    },
+    {
+      "nome": "Attacco",
+      "id": "attacco",
+      "icona": "🎯",
+      "descrizione": "FPV a fibra che colpisce il bersaglio.",
+      "tr": {
+        "en": {
+          "nome": "Attack",
+          "descrizione": "Fiber-optic FPV that hits the target."
+        }
+      }
+    },
+    {
+      "nome": "Bombardiere",
+      "id": "bombardiere",
+      "icona": "💣",
+      "descrizione": "Granate, bombe plananti e capsule di pallini.",
+      "tr": {
+        "en": {
+          "nome": "Bomber",
+          "descrizione": "Grenades, glide bombs and BB capsules."
+        }
+      }
+    },
+    {
+      "nome": "Jet e velocita'",
+      "id": "velocita",
+      "icona": "🚀",
+      "descrizione": "Elettrico EDF, turbina e benzina per i bersagli veloci.",
+      "tr": {
+        "en": {
+          "nome": "Jets and speed",
+          "descrizione": "Electric EDF, turbine and petrol for fast targets."
+        }
+      }
+    },
+    {
+      "nome": "Lungo raggio",
+      "id": "lungo-raggio",
+      "icona": "🛰️",
+      "descrizione": "Per campi enormi e campagne di piu' ore.",
+      "tr": {
+        "en": {
+          "nome": "Long range",
+          "descrizione": "For huge fields and multi-hour campaigns."
+        }
+      }
+    },
+    {
+      "nome": "Difesa",
+      "id": "difesa",
+      "icona": "🛡️",
+      "descrizione": "Intercetta e abbatte i droni nemici.",
+      "tr": {
+        "en": {
+          "nome": "Defense",
+          "descrizione": "Intercepts and downs enemy drones."
+        }
+      }
+    },
+    {
+      "nome": "Guida assistita e AI",
+      "id": "guida-ai",
+      "icona": "🧠",
+      "descrizione": "Moduli di inseguimento: il pilota decide sempre il colpo.",
+      "tr": {
+        "en": {
+          "nome": "Assisted guidance and AI",
+          "descrizione": "Tracking modules: the pilot always decides the shot."
+        }
+      }
+    },
+    {
+      "nome": "Sciami",
+      "id": "sciami",
+      "icona": "🐝",
+      "descrizione": "Gruppi coordinati con ESP32 + LoRa.",
+      "tr": {
+        "en": {
+          "nome": "Swarms",
+          "descrizione": "Coordinated groups with ESP32 + LoRa."
+        }
+      }
+    },
+    {
+      "nome": "VTOL decollo verticale",
+      "id": "vtol",
+      "icona": "✈️",
+      "descrizione": "4 eliche per salire, 1 per avanzare: autonomia da aereo, decollo da pochi metri.",
+      "tr": {
+        "en": {
+          "nome": "VTOL vertical takeoff",
+          "descrizione": "4 props to climb, 1 to cruise: plane endurance, takeoff in a few meters."
+        }
+      }
+    },
+    {
+      "nome": "Primo VTOL",
+      "id": "vtol-primo",
+      "icona": "🪁",
+      "descrizione": "Scafo in schiuma, piegabile, transizione automatica.",
+      "tr": {
+        "en": {
+          "nome": "First VTOL",
+          "descrizione": "Foam hull, foldable, automatic transition."
+        }
+      },
+      "genitore": "vtol"
+    },
+    {
+      "nome": "VTOL Attacco",
+      "id": "vtol-attacco",
+      "icona": "🎯",
+      "descrizione": "Con camera FPV e lanciatore leggero.",
+      "tr": {
+        "en": {
+          "nome": "VTOL Attack",
+          "descrizione": "With FPV camera and light launcher."
+        }
+      },
+      "genitore": "vtol"
+    },
+    {
+      "nome": "VTOL Bombardiere",
+      "id": "vtol-bombardiere",
+      "icona": "💣",
+      "descrizione": "Rilascia alianti e capsule dal ventre.",
+      "tr": {
+        "en": {
+          "nome": "VTOL Bomber",
+          "descrizione": "Drops gliders and capsules from the belly."
+        }
+      },
+      "genitore": "vtol"
+    },
+    {
+      "nome": "VTOL Lungo raggio",
+      "id": "vtol-lungo",
+      "icona": "🛰️",
+      "descrizione": "Ala grande per campi da 1-2 km.",
+      "tr": {
+        "en": {
+          "nome": "VTOL Long range",
+          "descrizione": "Large wing for 1-2 km fields."
+        }
+      },
+      "genitore": "vtol"
+    },
+    {
+      "nome": "VTOL Ricognizione",
+      "id": "vtol-ricognizione",
+      "icona": "🔭",
+      "descrizione": "Vede il campo e trasmette all'arbitro.",
+      "tr": {
+        "en": {
+          "nome": "VTOL Recon",
+          "descrizione": "Sees the field and streams to the referee."
+        }
+      },
+      "genitore": "vtol"
+    },
+    {
+      "nome": "VTOL Difesa",
+      "id": "vtol-difesa",
+      "icona": "🛡️",
+      "descrizione": "Intercettori veloci con 4 motori per scattare.",
+      "tr": {
+        "en": {
+          "nome": "VTOL Defense",
+          "descrizione": "Fast interceptors with 4 motors to dash."
+        }
+      },
+      "genitore": "vtol"
+    },
+    {
+      "nome": "VTOL Sciame",
+      "id": "vtol-sciame",
+      "icona": "🐝",
+      "descrizione": "Relay e kit coordinati.",
+      "tr": {
+        "en": {
+          "nome": "VTOL Swarm",
+          "descrizione": "Relay and coordinated kits."
+        }
+      },
+      "genitore": "vtol"
+    },
+    {
+      "nome": "Accessori",
+      "id": "accessori",
+      "icona": "🎒",
+      "descrizione": "Pallini, protezioni, gilet, batterie e ricambi.",
+      "tr": {
+        "en": {
+          "nome": "Accessories",
+          "descrizione": "BBs, protection, vests, batteries and spares."
         }
       }
     }
   ],
   "prodotti": [
     {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "tipo": "fisico",
+      "id": "ricognitore-r1",
+      "nome": "Ricognitore R1",
+      "categoria": "ricognizione",
+      "prezzo_centesimi": 20000,
+      "descrizione": "Drone con camera, senza pallini: vede il campo e segna le posizioni.",
+      "descrizione_completa": "Drone con camera, senza pallini: vede il campo e segna le posizioni.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
       "immagine": "",
-      "icona": "🛍️",
+      "icona": "🚁",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "Recon R1",
+          "descrizione": "Camera drone with no BBs: sees the field and marks positions.",
+          "descrizione_completa": "Camera drone with no BBs: sees the field and marks positions.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "fibra-f1",
+      "nome": "Fibra F1",
+      "categoria": "attacco",
+      "prezzo_centesimi": 24000,
+      "descrizione": "FPV a fibra: filo sottile, nessuna interferenza. Rilascia una nuvola di pallini gialli.",
+      "descrizione_completa": "FPV a fibra: filo sottile, nessuna interferenza. Rilascia una nuvola di pallini gialli.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Fiber F1",
+          "descrizione": "Fiber FPV: thin cable, no interference. Releases a cloud of yellow BBs.",
+          "descrizione_completa": "Fiber FPV: thin cable, no interference. Releases a cloud of yellow BBs.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "fibra-f2-pro",
+      "nome": "Fibra F2 Pro",
+      "categoria": "attacco",
+      "prezzo_centesimi": 42000,
+      "descrizione": "Bobina piu' lunga e camera HD per campi grandi.",
+      "descrizione_completa": "Bobina piu' lunga e camera HD per campi grandi.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Fiber F2 Pro",
+          "descrizione": "Longer spool and HD camera for large fields.",
+          "descrizione_completa": "Longer spool and HD camera for large fields.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sciame-s4",
+      "nome": "Sciame S4",
+      "categoria": "attacco",
+      "prezzo_centesimi": 27000,
+      "descrizione": "Kit da 4 mini-drone con gabbia e piccoli lanciatori per azioni coordinate.",
+      "descrizione_completa": "Kit da 4 mini-drone con gabbia e piccoli lanciatori per azioni coordinate.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Swarm S4",
+          "descrizione": "Kit of 4 caged mini drones with small launchers for coordinated plays.",
+          "descrizione_completa": "Kit of 4 caged mini drones with small launchers for coordinated plays.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "granata-g1",
+      "nome": "Granata G1",
+      "categoria": "bombardiere",
+      "prezzo_centesimi": 17000,
+      "descrizione": "Drone con gancio: lascia cadere una granata che sparge pallini gialli. 6 capsule incluse.",
+      "descrizione_completa": "Drone con gancio: lascia cadere una granata che sparge pallini gialli. 6 capsule incluse.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Grenade G1",
+          "descrizione": "Hook drone: drops a grenade that scatters yellow BBs. 6 capsules included.",
+          "descrizione_completa": "Hook drone: drops a grenade that scatters yellow BBs. 6 capsules included.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "bomba-color-b1",
+      "nome": "Bomba Color B1",
+      "categoria": "bombardiere",
+      "prezzo_centesimi": 19000,
+      "descrizione": "Capsula che libera pallini colorati: segnano i colpiti per il punteggio.",
+      "descrizione_completa": "Capsula che libera pallini colorati: segnano i colpiti per il punteggio.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Color Bomb B1",
+          "descrizione": "Capsule that releases colored BBs: marks hits for scoring.",
+          "descrizione_completa": "Capsule that releases colored BBs: marks hits for scoring.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "capsule-x10",
+      "nome": "Capsule bomba x10",
+      "categoria": "bombardiere",
+      "prezzo_centesimi": 2000,
+      "descrizione": "Ricarica per G1 e B1, gialle o colorate.",
+      "descrizione_completa": "Ricarica per G1 e B1, gialle o colorate.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Bomb capsules x10",
+          "descrizione": "Refill for G1 and B1, yellow or colored.",
+          "descrizione_completa": "Refill for G1 and B1, yellow or colored.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "aliante-a1",
+      "nome": "Aliante A1",
+      "categoria": "bombardiere",
+      "prezzo_centesimi": 3500,
+      "descrizione": "Mini aliante in schiuma con capsula gialla: si sgancia a quota e plana in avanti.",
+      "descrizione_completa": "Mini aliante in schiuma con capsula gialla: si sgancia a quota e plana in avanti.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Glider A1",
+          "descrizione": "Foam mini glider with yellow capsule: dropped at altitude, glides forward.",
+          "descrizione_completa": "Foam mini glider with yellow capsule: dropped at altitude, glides forward.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "aliante-a2-color",
+      "nome": "Aliante A2 Color",
+      "categoria": "bombardiere",
+      "prezzo_centesimi": 4500,
+      "descrizione": "Come A1 con pallini colorati, apertura a contatto.",
+      "descrizione_completa": "Come A1 con pallini colorati, apertura a contatto.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Glider A2 Color",
+          "descrizione": "Like A1 with colored BBs, opens on contact.",
+          "descrizione_completa": "Like A1 with colored BBs, opens on contact.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pack-6-alianti",
+      "nome": "Pack 6 alianti",
+      "categoria": "bombardiere",
+      "prezzo_centesimi": 17000,
+      "descrizione": "Sei alianti per un'intera partita.",
+      "descrizione_completa": "Sei alianti per un'intera partita.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "6-glider pack",
+          "descrizione": "Six gliders for a whole match.",
+          "descrizione_completa": "Six gliders for a whole match.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "gancio-doppio",
+      "nome": "Gancio sgancio doppio",
+      "categoria": "bombardiere",
+      "prezzo_centesimi": 5000,
+      "descrizione": "Porta 2 alianti: due lanci per volo.",
+      "descrizione_completa": "Porta 2 alianti: due lanci per volo.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Double drop hook",
+          "descrizione": "Carries 2 gliders: two drops per flight.",
+          "descrizione_completa": "Carries 2 gliders: two drops per flight.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "jet-j1",
+      "nome": "Jet J1 (EDF)",
+      "categoria": "velocita",
+      "prezzo_centesimi": 40000,
+      "descrizione": "Aereo a getto elettrico con ventola intubata: velocissimo, per intercettare i bersagli veloci.",
+      "descrizione_completa": "Aereo a getto elettrico con ventola intubata: velocissimo, per intercettare i bersagli veloci.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Jet J1 (EDF)",
+          "descrizione": "Electric ducted-fan jet: very fast, to intercept fast targets.",
+          "descrizione_completa": "Electric ducted-fan jet: very fast, to intercept fast targets.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "jet-j1-target",
+      "nome": "Jet J1 Target",
+      "categoria": "velocita",
+      "prezzo_centesimi": 18000,
+      "descrizione": "Bersaglio jet in schiuma per allenare l'intercettazione ad alta velocita'.",
+      "descrizione_completa": "Bersaglio jet in schiuma per allenare l'intercettazione ad alta velocita'.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Jet J1 Target",
+          "descrizione": "Foam jet target to train high-speed interception.",
+          "descrizione_completa": "Foam jet target to train high-speed interception.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "turbo-t1",
+      "nome": "Turbo T1 (micro-turbina)",
+      "categoria": "velocita",
+      "prezzo_centesimi": 500000,
+      "descrizione": "Versione da esposizione e gara con micro-turbina a kerosene. Solo esperti.",
+      "descrizione_completa": "Versione da esposizione e gara con micro-turbina a kerosene. Solo esperti.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Turbo T1 (micro-turbine)",
+          "descrizione": "Show and competition version with kerosene micro-turbine. Experts only.",
+          "descrizione_completa": "Show and competition version with kerosene micro-turbine. Experts only.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "piston-p1",
+      "nome": "Piston P1 (benzina)",
+      "categoria": "velocita",
+      "prezzo_centesimi": 155000,
+      "descrizione": "Ala fissa a benzina per lungo raggio e autonomia.",
+      "descrizione_completa": "Ala fissa a benzina per lungo raggio e autonomia.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Piston P1 (petrol)",
+          "descrizione": "Petrol fixed wing for long range and endurance.",
+          "descrizione_completa": "Petrol fixed wing for long range and endurance.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "catapulta",
+      "nome": "Catapulta",
+      "categoria": "velocita",
+      "prezzo_centesimi": 17000,
+      "descrizione": "Rampa di lancio per ali fisse veloci.",
+      "descrizione_completa": "Rampa di lancio per ali fisse veloci.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Catapult",
+          "descrizione": "Launch ramp for fast fixed wings.",
+          "descrizione_completa": "Launch ramp for fast fixed wings.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cruiser-l1",
+      "nome": "Cruiser L1",
+      "categoria": "lungo-raggio",
+      "prezzo_centesimi": 67500,
+      "descrizione": "Ala fissa elettrica ad alta autonomia con camera FPV e rilascio a lunga distanza.",
+      "descrizione_completa": "Ala fissa elettrica ad alta autonomia con camera FPV e rilascio a lunga distanza.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Cruiser L1",
+          "descrizione": "High-endurance electric fixed wing with FPV camera and long-range release.",
+          "descrizione_completa": "High-endurance electric fixed wing with FPV camera and long-range release.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cruiser-l2-piston",
+      "nome": "Cruiser L2 Piston",
+      "categoria": "lungo-raggio",
+      "prezzo_centesimi": 155000,
+      "descrizione": "Come L1 ma a benzina, piu' autonomia.",
+      "descrizione_completa": "Come L1 ma a benzina, piu' autonomia.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Cruiser L2 Piston",
+          "descrizione": "Like L1 but petrol, more endurance.",
+          "descrizione_completa": "Like L1 but petrol, more endurance.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "relay-r2",
+      "nome": "Relay R2",
+      "categoria": "lungo-raggio",
+      "prezzo_centesimi": 25000,
+      "descrizione": "Drone ripetitore: sale in quota e fa da ponte LoRa per gli altri droni.",
+      "descrizione_completa": "Drone ripetitore: sale in quota e fa da ponte LoRa per gli altri droni.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Relay R2",
+          "descrizione": "Relay drone: climbs and acts as a LoRa bridge for other drones.",
+          "descrizione_completa": "Relay drone: climbs and acts as a LoRa bridge for other drones.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "fibra-long-f3",
+      "nome": "Fibra Long F3",
+      "categoria": "lungo-raggio",
+      "prezzo_centesimi": 60000,
+      "descrizione": "FPV a fibra con bobina molto lunga, nessuna interferenza a distanza.",
+      "descrizione_completa": "FPV a fibra con bobina molto lunga, nessuna interferenza a distanza.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Fiber Long F3",
+          "descrizione": "Fiber FPV with a very long spool, no interference at range.",
+          "descrizione_completa": "Fiber FPV with a very long spool, no interference at range.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "interceptor-i1",
+      "nome": "Interceptor I1",
+      "categoria": "difesa",
+      "prezzo_centesimi": 32500,
+      "descrizione": "Veloce e agile: raffica corta di pallini sul drone bersaglio.",
+      "descrizione_completa": "Veloce e agile: raffica corta di pallini sul drone bersaglio.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Interceptor I1",
+          "descrizione": "Fast and agile: short BB burst on the target drone.",
+          "descrizione_completa": "Fast and agile: short BB burst on the target drone.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "bersaglio-t1",
+      "nome": "Drone Bersaglio T1",
+      "categoria": "difesa",
+      "prezzo_centesimi": 12500,
+      "descrizione": "Ala fissa in schiuma, economica e resistente, da intercettare.",
+      "descrizione_completa": "Ala fissa in schiuma, economica e resistente, da intercettare.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Target Drone T1",
+          "descrizione": "Foam fixed wing, cheap and tough, made to be intercepted.",
+          "descrizione_completa": "Foam fixed wing, cheap and tough, made to be intercepted.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sentinella",
+      "nome": "Sentinella",
+      "categoria": "difesa",
+      "prezzo_centesimi": 25000,
+      "descrizione": "Torretta a terra con sensore di movimento: spara ai droni nella zona difesa.",
+      "descrizione_completa": "Torretta a terra con sensore di movimento: spara ai droni nella zona difesa.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Sentinel",
+          "descrizione": "Ground turret with motion sensor: fires at drones in the defended zone.",
+          "descrizione_completa": "Ground turret with motion sensor: fires at drones in the defended zone.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "reti-barriere",
+      "nome": "Reti e barriere gioco",
+      "categoria": "difesa",
+      "prezzo_centesimi": 6500,
+      "descrizione": "Reti leggere per i bunker: fermano i droni e aggiungono tattica.",
+      "descrizione_completa": "Reti leggere per i bunker: fermano i droni e aggiungono tattica.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Game nets and barriers",
+          "descrizione": "Light nets for bunkers: stop drones and add tactics.",
+          "descrizione_completa": "Light nets for bunkers: stop drones and add tactics.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "lock-on-l1",
+      "nome": "Modulo Lock-On L1",
+      "categoria": "guida-ai",
+      "prezzo_centesimi": 14500,
+      "descrizione": "Camera e mini computer: il pilota sceglie il giocatore marcato e il drone lo segue. Il colpo lo decide sempre il pilota.",
+      "descrizione_completa": "Camera e mini computer: il pilota sceglie il giocatore marcato e il drone lo segue. Il colpo lo decide sempre il pilota.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Lock-On Module L1",
+          "descrizione": "Camera and mini computer: the pilot picks a marked player and the drone follows. The pilot always decides the shot.",
+          "descrizione_completa": "Camera and mini computer: the pilot picks a marked player and the drone follows. The pilot always decides the shot.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "intercept-ai",
+      "nome": "Modulo Intercept AI",
+      "categoria": "guida-ai",
+      "prezzo_centesimi": 22500,
+      "descrizione": "Tiene il drone bersaglio nel mirino e corregge la rotta.",
+      "descrizione_completa": "Tiene il drone bersaglio nel mirino e corregge la rotta.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Intercept AI Module",
+          "descrizione": "Keeps the target drone in sight and corrects course.",
+          "descrizione_completa": "Keeps the target drone in sight and corrects course.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "gilet-marcatore",
+      "nome": "Gilet con marcatore",
+      "categoria": "guida-ai",
+      "prezzo_centesimi": 6500,
+      "descrizione": "Marcatori colorati o IR per il riconoscimento da parte della camera.",
+      "descrizione_completa": "Marcatori colorati o IR per il riconoscimento da parte della camera.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Marker vest",
+          "descrizione": "Colored or IR markers for camera recognition.",
+          "descrizione_completa": "Colored or IR markers for camera recognition.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sciame-kit-s-lora",
+      "nome": "Sciame Kit S-LoRa",
+      "categoria": "sciami",
+      "prezzo_centesimi": 47500,
+      "descrizione": "4 droni economici con schede ESP32/LoRa gia' programmate e nodo arbitro.",
+      "descrizione_completa": "4 droni economici con schede ESP32/LoRa gia' programmate e nodo arbitro.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Swarm Kit S-LoRa",
+          "descrizione": "4 budget drones with pre-programmed ESP32/LoRa boards and referee node.",
+          "descrizione_completa": "4 budget drones with pre-programmed ESP32/LoRa boards and referee node.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "swarm-node",
+      "nome": "Scheda Swarm Node",
+      "categoria": "sciami",
+      "prezzo_centesimi": 3500,
+      "descrizione": "Scheda ESP32+LoRa da montare su qualsiasi drone: ruolo, stato e geofence.",
+      "descrizione_completa": "Scheda ESP32+LoRa da montare su qualsiasi drone: ruolo, stato e geofence.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Swarm Node board",
+          "descrizione": "ESP32+LoRa board for any drone: role, status and geofence.",
+          "descrizione_completa": "ESP32+LoRa board for any drone: role, status and geofence.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "nodo-arbitro",
+      "nome": "Nodo Arbitro",
+      "categoria": "sciami",
+      "prezzo_centesimi": 9000,
+      "descrizione": "Scatola a terra con stop generale e schermata dello sciame.",
+      "descrizione_completa": "Scatola a terra con stop generale e schermata dello sciame.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Referee Node",
+          "descrizione": "Ground box with general stop and swarm screen.",
+          "descrizione_completa": "Ground box with general stop and swarm screen.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vtol-v1",
+      "nome": "VTOL V1 Primo Volo",
+      "categoria": "vtol-primo",
+      "prezzo_centesimi": 29000,
+      "descrizione": "Scafo EPP piegabile, 4 motori + spingente, transizione e quota automatiche.",
+      "descrizione_completa": "Scafo EPP piegabile, 4 motori + spingente, transizione e quota automatiche.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VTOL V1 First Flight",
+          "descrizione": "Foldable EPP hull, 4 motors + pusher, automatic transition and altitude.",
+          "descrizione_completa": "Foldable EPP hull, 4 motors + pusher, automatic transition and altitude.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vtol-v2-fpv",
+      "nome": "VTOL V2 FPV",
+      "categoria": "vtol-attacco",
+      "prezzo_centesimi": 51500,
+      "descrizione": "Come V1 con camera FPV e lanciatore frontale leggero.",
+      "descrizione_completa": "Come V1 con camera FPV e lanciatore frontale leggero.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VTOL V2 FPV",
+          "descrizione": "Like V1 with FPV camera and light front launcher.",
+          "descrizione_completa": "Like V1 with FPV camera and light front launcher.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vtol-v3-bombardiere",
+      "nome": "VTOL V3 Bombardiere",
+      "categoria": "vtol-bombardiere",
+      "prezzo_centesimi": 62500,
+      "descrizione": "Rilascia 4-6 alianti A1 o capsule granata dal ventre.",
+      "descrizione_completa": "Rilascia 4-6 alianti A1 o capsule granata dal ventre.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VTOL V3 Bomber",
+          "descrizione": "Drops 4-6 A1 gliders or grenade capsules from the belly.",
+          "descrizione_completa": "Drops 4-6 A1 gliders or grenade capsules from the belly.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vtol-v4-cruiser",
+      "nome": "VTOL V4 Cruiser",
+      "categoria": "vtol-lungo",
+      "prezzo_centesimi": 90000,
+      "descrizione": "Ala grande e batteria pesante, ripiegabile in valigia: campi da 1-2 km.",
+      "descrizione_completa": "Ala grande e batteria pesante, ripiegabile in valigia: campi da 1-2 km.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VTOL V4 Cruiser",
+          "descrizione": "Large wing and heavy battery, folds into a case: 1-2 km fields.",
+          "descrizione_completa": "Large wing and heavy battery, folds into a case: 1-2 km fields.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vtol-v5-recon",
+      "nome": "VTOL V5 Recon",
+      "categoria": "vtol-ricognizione",
+      "prezzo_centesimi": 52500,
+      "descrizione": "Senza pallini: vede il campo e trasmette in diretta all'arbitro.",
+      "descrizione_completa": "Senza pallini: vede il campo e trasmette in diretta all'arbitro.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VTOL V5 Recon",
+          "descrizione": "No BBs: sees the field and streams live to the referee.",
+          "descrizione_completa": "No BBs: sees the field and streams live to the referee.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vtol-v6-interceptor",
+      "nome": "VTOL V6 Interceptor",
+      "categoria": "vtol-difesa",
+      "prezzo_centesimi": 70000,
+      "descrizione": "Veloce, raffiche corte sui droni bersaglio.",
+      "descrizione_completa": "Veloce, raffiche corte sui droni bersaglio.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VTOL V6 Interceptor",
+          "descrizione": "Fast, short bursts on target drones.",
+          "descrizione_completa": "Fast, short bursts on target drones.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vtol-v7-relay",
+      "nome": "VTOL V7 Relay",
+      "categoria": "vtol-sciame",
+      "prezzo_centesimi": 45000,
+      "descrizione": "Sale in quota e fa da ponte LoRa per lo sciame.",
+      "descrizione_completa": "Sale in quota e fa da ponte LoRa per lo sciame.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VTOL V7 Relay",
+          "descrizione": "Climbs and acts as LoRa bridge for the swarm.",
+          "descrizione_completa": "Climbs and acts as LoRa bridge for the swarm.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-sciame-vtol",
+      "nome": "Kit Sciame VTOL (4 pezzi)",
+      "categoria": "vtol-sciame",
+      "prezzo_centesimi": 125000,
+      "descrizione": "4 V1 coordinati con ESP32 + LoRa e nodo arbitro.",
+      "descrizione_completa": "4 V1 coordinati con ESP32 + LoRa e nodo arbitro.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VTOL Swarm Kit (4 pcs)",
+          "descrizione": "4 coordinated V1 with ESP32 + LoRa and referee node.",
+          "descrizione_completa": "4 coordinated V1 with ESP32 + LoRa and referee node.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pallini-gialli",
+      "nome": "Pallini gialli 6 mm (bio)",
+      "categoria": "accessori",
+      "prezzo_centesimi": 1200,
+      "descrizione": "Sacchetto di pallini biodegradabili.",
+      "descrizione_completa": "Sacchetto di pallini biodegradabili.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Yellow BBs 6 mm (bio)",
+          "descrizione": "Bag of biodegradable BBs.",
+          "descrizione_completa": "Bag of biodegradable BBs.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pallini-colorati",
+      "nome": "Pallini colorati marcanti",
+      "categoria": "accessori",
+      "prezzo_centesimi": 1600,
+      "descrizione": "Per punteggio e arbitraggio.",
+      "descrizione_completa": "Per punteggio e arbitraggio.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Colored marking BBs",
+          "descrizione": "For scoring and refereeing.",
+          "descrizione_completa": "For scoring and refereeing.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "occhiali-maschera",
+      "nome": "Occhiali / maschera protettiva",
+      "categoria": "accessori",
+      "prezzo_centesimi": 2800,
+      "descrizione": "Obbligatori per giocare.",
+      "descrizione_completa": "Obbligatori per giocare.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Goggles / protective mask",
+          "descrizione": "Mandatory to play.",
+          "descrizione_completa": "Mandatory to play.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "gilet-sensori",
+      "nome": "Gilet con sensori di colpo",
+      "categoria": "accessori",
+      "prezzo_centesimi": 10000,
+      "descrizione": "Segnano quando un giocatore e' colpito (modalita' arbitro).",
+      "descrizione_completa": "Segnano quando un giocatore e' colpito (modalita' arbitro).\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Hit-sensor vest",
+          "descrizione": "Signal when a player is hit (referee mode).",
+          "descrizione_completa": "Signal when a player is hit (referee mode).\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "batterie-caricatore",
+      "nome": "Batterie extra e caricatore multiplo",
+      "categoria": "accessori",
+      "prezzo_centesimi": 4800,
+      "descrizione": "Piu' partite senza fermarsi.",
+      "descrizione_completa": "Piu' partite senza fermarsi.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Extra batteries and multi charger",
+          "descrizione": "More matches without stopping.",
+          "descrizione_completa": "More matches without stopping.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "bobina-fibra",
+      "nome": "Bobina fibra extra",
+      "categoria": "accessori",
+      "prezzo_centesimi": 2500,
+      "descrizione": "Ricambio per Fibra F1 e F2.",
+      "descrizione_completa": "Ricambio per Fibra F1 e F2.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Extra fiber spool",
+          "descrizione": "Spare for Fiber F1 and F2.",
+          "descrizione_completa": "Spare for Fiber F1 and F2.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "valigia-pieghevole",
+      "nome": "Valigia pieghevole VTOL",
+      "categoria": "accessori",
+      "prezzo_centesimi": 6500,
+      "descrizione": "Trasporta il VTOL con le ali ripiegate.",
+      "descrizione_completa": "Trasporta il VTOL con le ali ripiegate.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Folding VTOL case",
+          "descrizione": "Carries the VTOL with folded wings.",
+          "descrizione_completa": "Carries the VTOL with folded wings.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "eliche-verticali",
+      "nome": "Set eliche verticali",
+      "categoria": "accessori",
+      "prezzo_centesimi": 2200,
+      "descrizione": "Ricambio per i 4 motori verticali.",
+      "descrizione_completa": "Ricambio per i 4 motori verticali.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Vertical prop set",
+          "descrizione": "Spare for the 4 vertical motors.",
+          "descrizione_completa": "Spare for the 4 vertical motors.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "batteria-ala",
+      "nome": "Batteria ala (pesante)",
+      "categoria": "accessori",
+      "prezzo_centesimi": 7800,
+      "descrizione": "Per autonomia lunga.",
+      "descrizione_completa": "Per autonomia lunga.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Wing battery (heavy)",
+          "descrizione": "For long endurance.",
+          "descrizione_completa": "For long endurance.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
         }
       }
     }

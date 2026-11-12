@@ -1,6 +1,70 @@
 [
   {
-    "nome": "esempio",
-    "slug": "esempio"
+    "nome": "Ricognizione",
+    "slug": "ricognizione"
+  },
+  {
+    "nome": "Attacco",
+    "slug": "attacco"
+  },
+  {
+    "nome": "Bombardiere",
+    "slug": "bombardiere"
+  },
+  {
+    "nome": "Jet e velocita'",
+    "slug": "velocita"
+  },
+  {
+    "nome": "Lungo raggio",
+    "slug": "lungo-raggio"
+  },
+  {
+    "nome": "Difesa",
+    "slug": "difesa"
+  },
+  {
+    "nome": "Guida assistita e AI",
+    "slug": "guida-ai"
+  },
+  {
+    "nome": "Sciami",
+    "slug": "sciami"
+  },
+  {
+    "nome": "VTOL decollo verticale",
+    "slug": "vtol"
+  },
+  {
+    "nome": "Primo VTOL",
+    "slug": "vtol-primo"
+  },
+  {
+    "nome": "VTOL Attacco",
+    "slug": "vtol-attacco"
+  },
+  {
+    "nome": "VTOL Bombardiere",
+    "slug": "vtol-bombardiere"
+  },
+  {
+    "nome": "VTOL Lungo raggio",
+    "slug": "vtol-lungo"
+  },
+  {
+    "nome": "VTOL Ricognizione",
+    "slug": "vtol-ricognizione"
+  },
+  {
+    "nome": "VTOL Difesa",
+    "slug": "vtol-difesa"
+  },
+  {
+    "nome": "VTOL Sciame",
+    "slug": "vtol-sciame"
+  },
+  {
+    "nome": "Accessori",
+    "slug": "accessori"
   }
 ]
