@@ -119,7 +119,7 @@ Per noi (simulazione softair, budget "infinito"): tre livelli di velocita'.
 |---|---|---|---|
 | **Skyfire Jet J1 (EDF)** | Intercettori a getto | Aereo a getto elettrico con ventola, velocissimo: per intercettare i bersagli veloci di gioco. Lanciatore pallini frontale in versione leggera. | 280-520 EUR |
 | **Skyfire Jet J1 Target** | Droni da attacco a getto | Bersaglio jet in schiuma per allenare l'intercettazione ad alta velocita'. | 120-240 EUR |
-| **Skyfire Turbo T1 (micro-turbina)** | Intercettori a turbina | Modello con micro-turbina a kerosene da aeromodellismo, versione da esposizione/gara. Serve esperienza e un campo adatto. | 3.500-6.500 EUR (da verificare) |
+| **Skyfire Turbo T1 (turbina a kerosene)** | Intercettori a turbina | Aereo a getto con **vera turbina RC a kerosene**, assemblato con pezzi commerciali. 3 versioni: Race (classe 80 N), Pro (classe 100 N), Max (classe 150 N). Vedi scheda tecnica sotto. | 5.500-8.500 EUR (stima nostra, da verificare) |
 | **Skyfire Piston P1 (benzina)** | Droni a motore a scoppio | Ala fissa a benzina per lungo raggio e autonomia: copre piu' campi di gioco. | 900-2.200 EUR |
 | **Skyfire Catapulta** | Lancio da rampa | Rampa di lancio per ali fisse veloci. | 90-250 EUR |
 
@@ -233,3 +233,54 @@ Logica: per pochi euro si costruisce uno sciame "strategico". Ogni drone ha una 
 - Regole ENAC per aeromodelli e droni ala fissa (peso, quota, distanza, volo fuori vista).
 - Lanciatore su un aereo che vola in avanti: stessi dubbi sulle regole delle armi softair (energia, punta arancione, eta' minima).
 - Fornitori: cercare "VTOL EPP quadplane kit", "tilt rotor VTOL FPV", "ArduPilot VTOL airframe".
+
+---
+
+## Scheda tecnica Turbo T1 - turbina vera, pezzi commerciali
+
+Non e' un EDF: e' la turbina a combustione del modellismo (compressore, camera di combustione, turbina, ugello), come quelle che spingono i jet RC. Si compra gia' fatta, non va progettata.
+
+### Come funziona la turbina RC (da fonti)
+- Brucia **kerosene / Jet A1** (a volte gasolio), non nitro. Il carburante va **miscelato con olio per turbine, circa 5%**, che lubrifica i cuscinetti ad alta velocita' (JetCat P62-RX; guida RC Airplane World).
+- Avvio automatico a kerosene: la centralina (ECU) gestisce avviamento, giri e temperatura. Nelle serie RX pompa, valvole e sensore sono integrati, con un solo cavo verso l'ECU.
+- Dopo lo spegnimento serve la fase di raffreddamento a ventola prima di togliere corrente.
+
+### Modelli reali di riferimento (prezzi dai siti ufficiali, IVA inclusa)
+| Turbina | Spinta | Peso | Prezzo | Nota |
+|---|---|---|---|---|
+| JetCat P80-SE | classe 80 N | n.d. | 1.899 EUR | Alimentazione ECU con LiPo 2S |
+| JetCat P100-RX | 100 N a 152.000 giri/min | circa 1.080 g con valvole | 2.449 EUR | ECU V10 leggera, un solo cavo |
+| Wren MW54 | 64 N | 990 g | n.d. | Dati da pagina di terzi; Wren e' stata liquidata, si trova solo usato |
+| JetCat serie RX-BL | 100 / 130 / 150 N | n.d. | n.d. | Elencata sul sito JetCat, prezzo non trovato |
+| Turbine cinesi (es. KingTech K-45) | circa 10 kg di spinta | circa 2,5 kg | 600-900 USD (forum/blog) | Fonte debole, da verificare con il fornitore |
+
+100 N sono circa 10 kg di spinta: abbastanza per un modello da qualche kg.
+
+### Assemblaggio con pezzi commerciali (distinta base)
+| Parte | Cosa si compra | Costo indicativo |
+|---|---|---|
+| Turbina + ECU + pompa + valvole | JetCat P80-SE / P100-RX (o equivalente) | 1.900-2.450 EUR (fonte JetCat) |
+| Cellula | Kit jet RC in composito (ARF) da 1,5-2 m, con presa d'aria e tubo di scarico gia' sagomati | 600-1.500 EUR (stima nostra) |
+| Serbatoio kerosene + tubi + filtro | Serbatoio con pescante, raccordi per turbina | 100-200 EUR (stima nostra) |
+| Tubo di scarico e schermo termico | Tubo in acciaio inox e lamiera inox attorno all'ugello | 80-150 EUR (stima nostra) |
+| Radio, servi, batterie | Ricevitore, servi, LiPo per ECU e radio | 300-500 EUR (stima nostra) |
+| Carrello o rampa | Carrello fisso oppure catapulta (gia' in listino) | 90-250 EUR |
+| Lanciatore pallini softair | Versione leggera frontale, come J1 | 60-120 EUR (stima nostra) |
+| **Totale parti** | | **circa 3.100-5.200 EUR** |
+
+Prezzo di vendita proposto: **5.500-8.500 EUR** assemblato e collaudato, con margine per collaudo, garanzia e assistenza. Sono stime nostre, non prezzi di mercato verificati.
+
+### Versioni
+- **T1 Race**: turbina classe 80 N, cellula piu' corta. Entrata nel mondo turbina.
+- **T1 Pro**: classe 100 N (P100-RX), la versione di riferimento.
+- **T1 Max**: classe 150 N, edizione limitata, solo su richiesta.
+
+### Come deve apparire (per le foto e il sito)
+Aereo a getto RC credibile: fusoliera snella, presa d'aria frontale o ventrale, **ugello di scarico posteriore ben visibile**, ali piccole in composito, **nessuna elica**. Sul fianco un'etichetta "Skyfire". Niente cavi a vista, niente serbatoio visibile. Evitare mimetica militare e insegne reali.
+
+### Da verificare prima di vendere
+- Regole ENAC per aeromodelli a turbina: peso massimo, velocita', quota, club o campo di volo autorizzato.
+- Assicurazione e responsabilita' civile.
+- Sicurezza: gas di scarico molto caldi, carburante infiammabile, rumore forte, estintore sul campo.
+- Garanzia e assistenza: la turbina ha ore di vita e manutenzione programmata.
+- Lanciatore pallini su un modello a getto: potrebbe avere limiti diversi da un'arma softair a terra.
