@@ -1106,6 +1106,44 @@
           "descrizione_completa": "For long endurance.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
         }
       }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tuta-bianca",
+      "nome": "Tuta bianca marcante",
+      "categoria": "accessori",
+      "prezzo_centesimi": 4500,
+      "descrizione": "Tuta bianca integrale: i pallini colorati lasciano il segno e si vede subito chi è stato colpito.",
+      "descrizione_completa": "Tuta bianca integrale: i pallini colorati lasciano il segno e si vede subito chi è stato colpito.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "White marking suit",
+          "descrizione": "White full-body suit: colored BBs leave a mark so hits are visible at once.",
+          "descrizione_completa": "White full-body suit: colored BBs leave a mark so hits are visible at once.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tuta-bianca-squadra",
+      "nome": "Tute bianche squadra (4 pezzi)",
+      "categoria": "accessori",
+      "prezzo_centesimi": 16000,
+      "descrizione": "Quattro tute bianche per una squadra intera.",
+      "descrizione_completa": "Quattro tute bianche per una squadra intera.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "White suits squad (4 pcs)",
+          "descrizione": "Four white suits for a whole team.",
+          "descrizione_completa": "Four white suits for a whole team.\nSoftair simulation: 6 mm plastic BBs. Eye and face protection required. Indicative price."
+        }
+      }
     }
   ]
 }
