@@ -374,7 +374,7 @@
       "prezzo_centesimi": 4500,
       "descrizione": "Come A1 con pallini colorati, apertura a contatto.",
       "descrizione_completa": "Come A1 con pallini colorati, apertura a contatto.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/aliante-a2-color.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -412,7 +412,7 @@
       "prezzo_centesimi": 5000,
       "descrizione": "Porta 2 alianti: due lanci per volo.",
       "descrizione_completa": "Porta 2 alianti: due lanci per volo.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/gancio-doppio.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -450,7 +450,7 @@
       "prezzo_centesimi": 18000,
       "descrizione": "Bersaglio jet in schiuma per allenare l'intercettazione ad alta velocita'.",
       "descrizione_completa": "Bersaglio jet in schiuma per allenare l'intercettazione ad alta velocita'.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/jet-j1-target.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -469,7 +469,7 @@
       "prezzo_centesimi": 500000,
       "descrizione": "Versione da esposizione e gara con micro-turbina a kerosene. Solo esperti.",
       "descrizione_completa": "Versione da esposizione e gara con micro-turbina a kerosene. Solo esperti.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/turbo-t1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -488,7 +488,7 @@
       "prezzo_centesimi": 155000,
       "descrizione": "Ala fissa a benzina per lungo raggio e autonomia.",
       "descrizione_completa": "Ala fissa a benzina per lungo raggio e autonomia.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/piston-p1.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -507,7 +507,7 @@
       "prezzo_centesimi": 17000,
       "descrizione": "Rampa di lancio per ali fisse veloci.",
       "descrizione_completa": "Rampa di lancio per ali fisse veloci.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/catapulta.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -545,7 +545,7 @@
       "prezzo_centesimi": 155000,
       "descrizione": "Come L1 ma a benzina, piu' autonomia.",
       "descrizione_completa": "Come L1 ma a benzina, piu' autonomia.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/cruiser-l2-piston.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -583,7 +583,7 @@
       "prezzo_centesimi": 60000,
       "descrizione": "FPV a fibra con bobina molto lunga, nessuna interferenza a distanza.",
       "descrizione_completa": "FPV a fibra con bobina molto lunga, nessuna interferenza a distanza.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/fibra-long-f3.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -716,7 +716,7 @@
       "prezzo_centesimi": 6500,
       "descrizione": "Marcatori colorati o IR per il riconoscimento da parte della camera.",
       "descrizione_completa": "Marcatori colorati o IR per il riconoscimento da parte della camera.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/gilet-marcatore.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -868,7 +868,7 @@
       "prezzo_centesimi": 52500,
       "descrizione": "Senza pallini: vede il campo e trasmette in diretta all'arbitro.",
       "descrizione_completa": "Senza pallini: vede il campo e trasmette in diretta all'arbitro.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/vtol-v5-recon.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -887,7 +887,7 @@
       "prezzo_centesimi": 70000,
       "descrizione": "Veloce, raffiche corte sui droni bersaglio.",
       "descrizione_completa": "Veloce, raffiche corte sui droni bersaglio.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/vtol-v6-interceptor.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -906,7 +906,7 @@
       "prezzo_centesimi": 45000,
       "descrizione": "Sale in quota e fa da ponte LoRa per lo sciame.",
       "descrizione_completa": "Sale in quota e fa da ponte LoRa per lo sciame.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/vtol-v7-relay.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -925,7 +925,7 @@
       "prezzo_centesimi": 125000,
       "descrizione": "4 V1 coordinati con ESP32 + LoRa e nodo arbitro.",
       "descrizione_completa": "4 V1 coordinati con ESP32 + LoRa e nodo arbitro.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/kit-sciame-vtol.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -1001,7 +1001,7 @@
       "prezzo_centesimi": 10000,
       "descrizione": "Segnano quando un giocatore e' colpito (modalita' arbitro).",
       "descrizione_completa": "Segnano quando un giocatore e' colpito (modalita' arbitro).\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/gilet-sensori.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -1039,7 +1039,7 @@
       "prezzo_centesimi": 2500,
       "descrizione": "Ricambio per Fibra F1 e F2.",
       "descrizione_completa": "Ricambio per Fibra F1 e F2.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/bobina-fibra.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -1058,7 +1058,7 @@
       "prezzo_centesimi": 6500,
       "descrizione": "Trasporta il VTOL con le ali ripiegate.",
       "descrizione_completa": "Trasporta il VTOL con le ali ripiegate.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/valigia-pieghevole.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -1077,7 +1077,7 @@
       "prezzo_centesimi": 2200,
       "descrizione": "Ricambio per i 4 motori verticali.",
       "descrizione_completa": "Ricambio per i 4 motori verticali.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/eliche-verticali.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
@@ -1096,7 +1096,7 @@
       "prezzo_centesimi": 7800,
       "descrizione": "Per autonomia lunga.",
       "descrizione_completa": "Per autonomia lunga.\nSimulazione softair: pallini di plastica 6 mm. Protezioni occhi e viso obbligatorie. Prezzo indicativo.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/batteria-ala.webp",
       "icona": "🚁",
       "visibile": true,
       "tr": {
