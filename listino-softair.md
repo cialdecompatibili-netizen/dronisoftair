@@ -192,3 +192,44 @@ Logica: per pochi euro si costruisce uno sciame "strategico". Ogni drone ha una 
 - **LoRa in Europa**: banda 868 MHz con limiti di potenza e di tempo di trasmissione (duty cycle). Controllare le regole.
 - **Sicurezza**: stop di emergenza obbligatorio, failsafe, atterraggio automatico se il collegamento cade.
 - **Non pilotare con LoRa**: la banda e' troppo lenta per il controllo manuale; usarla solo per coordinamento.
+
+
+---
+
+# AGGIORNAMENTO 12/11/2026 - VTOL A 5 ELICHE (decollo verticale) - categoria molto importante
+
+**Idea:** aerei softair a decollo verticale: 4 eliche per salire e atterrare + 1 elica spingente per andare avanti. L'ala porta il peso in volo avanzato, quindi autonomia lunga ma decollo da pochi metri quadrati: si gioca su campi piccoli senza pista, e le ali si ripiegano nella valigia. Ricerca di mercato completa in `droni\listino-concorrenza.md`, sezione 11.
+
+## Logiche da ricordare
+- **Perche' vende:** autonomia da aereo (decine di minuti) con la facilita' di decollo di un quadricottero. Sul campo: nessuna rampa, nessuna catapulta.
+- **Transizione** (da verticale a orizzontale) = fase critica: serve un controller di volo che la gestisce da solo (ArduPilot). Per la versione gioco: transizione automatica, il pilota non la fa a mano.
+- **Peso morto:** i 4 motori verticali non servono in crociera; nei modelli migliori si bloccano o si spengono. Versione economica: scafo in schiuma EPP, a prova d'urto.
+- **Alternative:** tilt-rotor (motori inclinabili), coassiale con ventola intubata (schiuma, per principianti), tailsitter.
+- **Regola di gioco:** il pilota decide sempre il colpo (vale anche qui).
+
+## Categorie nuove (menu del sito)
+
+| Categoria | Sottocategorie |
+|---|---|
+| **VTOL (decollo verticale)** | Primo VTOL (principianti), VTOL Attacco, VTOL Bombardiere, VTOL Lungo raggio, VTOL Ricognizione, VTOL Difesa (intercettori), VTOL Sciame |
+
+## Prodotti (bozza, prezzi da riverificare)
+
+| Prodotto | Categoria | Idea | Target |
+|---|---|---|---|
+| **VTOL V1 Primo Volo** | Primo VTOL | Scafo EPP, 4 motori + spingente, piegabile; transizione automatica, quota tenuta da sola. Prezzo di riferimento: i VTOL hobby in schiuma costano 130-200 USD. | 200-380 EUR |
+| **VTOL V2 FPV** | VTOL Attacco | Come V1 con camera FPV e lanciatore pallini frontale leggero. | 380-650 EUR |
+| **VTOL V3 Bombardiere** | VTOL Bombardiere | Rilascia 4-6 alianti A1 o capsule granata dal ventre; apertura a contatto. | 450-800 EUR |
+| **VTOL V4 Cruiser** | VTOL Lungo raggio | Ala grande, batteria pesante, camera FPV; copre campi da 1-2 km; ripiegabile in valigia. | 600-1.200 EUR |
+| **VTOL V5 Recon** | VTOL Ricognizione | Senza pallini: vede il campo, segna le posizioni, trasmette in diretta all'arbitro. | 350-700 EUR |
+| **VTOL V6 Interceptor** | VTOL Difesa | Veloce, spara raffiche corte sui droni bersaglio; ala + 4 motori per scattare. | 500-900 EUR |
+| **VTOL V7 Relay** | VTOL Sciame | Sale in quota e fa da ponte LoRa per lo sciame (vedi sezione ESP32). | 300-600 EUR |
+| **Kit Sciame VTOL (4 pezzi)** | VTOL Sciame | 4 V1 coordinati con scheda ESP32 + LoRa e nodo arbitro. | 900-1.600 EUR |
+| **Valigia pieghevole** | Accessori | Trasporta il VTOL con le ali ripiegate. | 40-90 EUR |
+| **Set eliche verticali** | Accessori | Ricambio per i 4 motori. | 15-30 EUR |
+| **Batteria ala (pesante)** | Accessori | Per autonomia lunga. | 45-110 EUR |
+
+## Da verificare
+- Regole ENAC per aeromodelli e droni ala fissa (peso, quota, distanza, volo fuori vista).
+- Lanciatore su un aereo che vola in avanti: stessi dubbi sulle regole delle armi softair (energia, punta arancione, eta' minima).
+- Fornitori: cercare "VTOL EPP quadplane kit", "tilt rotor VTOL FPV", "ArduPilot VTOL airframe".
